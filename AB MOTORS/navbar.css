@@ -1,0 +1,90 @@
+* { 
+    font-family:'Times New Roman', Times, serif; 
+} 
+
+
+.logo {
+    height: 10vh; 
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 10vh; 
+}  
+.navLinks {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    list-style: none;
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif; 
+} 
+li a {
+    margin-left: 50px;
+    color: black; 
+    text-decoration: none; 
+} 
+
+.firstdiv {
+    background-image: url(./img/01-mercedes-benz-eqs-suv.jpeg);  
+    height: 100vh; 
+    background-repeat: no-repeat; 
+} 
+h3 {
+    background-color: rgba(0, 0, 0, 0.424);    
+    margin: auto; 
+    border-radius: 30px;
+    display: flex;
+    align-items: center; 
+    width: 80%;
+    height: 100%;  
+    font-size: 100px;  
+    font-weight: 300;
+    text-align: center;  
+    color: white; 
+}  
+p {
+    font-size: 50px; 
+    font-style: italic; 
+}  
+
+.seconddiv {
+    background-image: url(./img/mercedes-benz-g-class.jpeg); 
+    height: 100vh;  
+}  
+h1 {
+    text-align: center; 
+    font-size: 70px;
+}
+.line {
+    width: 40%;
+    height: 5px;
+    background: #948A54;
+    margin: auto; 
+    margin-top: -50px; 
+    border-radius: 5px;
+}  
+.offer li {
+    font-size: 50px;  
+    margin-top: 15px;
+} 
+.footer {
+    background-color:  #948A54; 
+}   
+.column {
+    display: flex; 
+    justify-content: space-between;
+}
+
+ 
+.fli {
+    font-size: 30px; 
+    margin-top: 20px; 
+    list-style: none;  
+    color: rgb(255, 252, 234);
+}
+.con {
+    font-size: 30px; 
+    color: rgb(255, 252, 234)
+} 
